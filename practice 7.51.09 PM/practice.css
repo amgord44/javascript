@@ -1,0 +1,24 @@
+header > h1{
+    margin: 20px;
+    text-align: center;
+    color: purple;
+}
+header > p {
+    margin: 40px;
+    text-align: justify;
+    font-size: larger;
+}
+.buttons {
+    margin: 250px 0;
+    text-align: center;
+    
+}
+.button {
+    display: inline-block;
+    color: purple;
+    background-color: red;
+    border-radius: 100px;
+    border-style: double;
+    border-color: rgb(209, 192, 255);
+
+}
