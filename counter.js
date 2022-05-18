@@ -1,22 +1,35 @@
 let count = 0;
-document.addEventListener('DOMContentLoaded', () => {
-    
+
 const value = document.querySelector('#value');
-const decrease = document.getElementById('btnD');
-const reset= document.getElementById('btnR');
-const increase = document.getElementById('btnI');
+const btns = document.querySelectorAll('.btn');
 
-decrease.forEach(function (btnD) {
-btnD.addEventListener('click', function(e) {
-    const styles = e.currentTarget.classList;
-    if(styles.contains('decrease')) {
-        count--;
-    }
+btns.forEach(function(btn){
+    btn.addEventListener('click',function(e) {
+        const styles = e.currentTarget.classList;
+        if(styles.contains('decrease')) {
+            count--;
+        }
+        else if(styles.contains('increase')) {
+            count++;
+        }
+        else{
+            count = 0;
+        }
+        value.textContent = count;
+    });
+});
 
-value.textContent = count;
-});
- });
-});
+    
+
+
+
+
+
+
+
+
+
+
 
  
     
