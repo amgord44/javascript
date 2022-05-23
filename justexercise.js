@@ -1,4 +1,4 @@
 const role = 'host';
 const person = "michelle";
 const team = {};
-  team[role]= person;
+  team[role]=  person;
