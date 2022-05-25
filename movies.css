@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+  }
+  .card {
+    padding: 16px;
+    text-align:center;
+    background-color: #1c413c;
+  }
+  .column {
+    float: left;
+    width: 50%;
+    padding: 0 10px;
+  }

@@ -1,6 +1,5 @@
 
-    const movies = [
-    {
+    const movies =[{
     title: 'The GodFather: Part II',
     date: '1974',
     rating: 'R',
@@ -8,6 +7,7 @@
     synopsis:'The early life and career of Vito Corleone in 1920s New York City is portrayed, while his son, Michael, expands and tightens his grip on the family crime syndicate.'
 },
 {
+
     title: '2001: A Space Odyssey',
     date: '1968',
     rating: 'G',
@@ -15,6 +15,7 @@
     synopsis:'A troubled child summons the courage to help a friendly alien escape Earth and return to his home world.'
 },
 {
+
     title: ' E.T. the Extra-Terrestrial',
     date: '1982',
     rating: 'G',
@@ -22,6 +23,7 @@
     synopsis:'A troubled child summons the courage to help a friendly alien escape Earth and return to his home world.'
 },
 {
+
     title: ' The Shawshank Redemption',
     date: '1994',
     rating: 'R',
@@ -29,11 +31,13 @@
     synopsis:'Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.'
 },
 {
+
     title: 'Star Wars',
     date: '1977',
     rating: 'PG',
     length:'121 min',
     synopsis:'Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from the Empires world-destroying battle station, while also attempting to rescue Princess Leia from the mysterious Darth Vader.'
+
 },
 {
     title: 'West Side Story',
@@ -41,6 +45,7 @@
     rating: 'R',
     length:'153 min',
     synopsis:'Two youngsters from rival New York City gangs fall in love, but tensions between their respective friends build toward tragedy.'
+
 },
 {
     title: '12 Angry Men',
@@ -50,7 +55,7 @@
     synopsis:'The jury in a New York City murder trial is frustrated by a single member whose skeptical caution forces them to more carefully consider the evidence before jumping to a hasty verdict.'
 
 },
-{  
+{ 
     title: 'The Sound of Music',
     date: '1965',
     rating: 'G',
@@ -58,7 +63,7 @@
     synopsis:'A young novitiate is sent by her convent in 1930s Austria to become a governess to the seven children of a widowed naval officer.'
 
 },
-{   
+{
     title: 'Forrest Gump',
     date: '1994',
     rating: 'PG-13',
@@ -71,13 +76,30 @@
     rating: 'R',
     length:'110 min',
     synopsis:'A screenwriter develops a dangerous relationship with a faded film star determined to make a triumphant return.'
-},
-];
-for(let i = 0; i < 10; i++) {
-}
-const button = document.getElementById('button');
-button.addEventListener('click',() => {
 
-});
+}
+]
+const year = movies.filter(e => e.date.includes('1950'));
+console.log(year);
+
+/*movies.forEach((e) => {
+    console.log(`${e.title} ${e.date}`);*/
+
+/*let year = movies.filter(year => movies.date === 1950);
+console.log(year)*/
+
+
+//console.log(movies);
+/*for(let i = 0; i < movies.length; i++) {
+if(movies[i].date === 1950){*/
+   // console.log(moveYear);
+
+
+
+//const button = document.getElementById('button');
+//button.addEventListener('click',() => {*/
+
+
+
 
 
