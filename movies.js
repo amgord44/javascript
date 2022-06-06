@@ -93,26 +93,14 @@ console.log(year)*/
 /*for(let i = 0; i < movies.length; i++) {
 if(movies[i].date === 1950){*/
    // console.log(moveYear);
-
-
-   function w3AddClass(element, name) {
-    var i, arr1, arr2;
-    arr1 = element.className.split(" ");
-    arr2 = name.split(" ");
-    for (i = 0; i < arr2.length; i++) {
-      if (arr1.indexOf(arr2[i]) == -1) {
-        element.className += " " + arr2[i];
-      }
+   const allMovies = document.querySelector('gMovies');
+   const btn = document.querySelector('button');
+   
+   btn.addEventListener('click', getMovies);
+   function getMovies() {
+                alert(JSON.stringify(movies))
+    
     }
-  }
-const button = document.getElementById('btnContainer');
-const btns = btnContainer.getElementsByClassName(".btn");
-for (var i = 0; i < btns.length; i++) {
-    btns[i].addEventListener("click", function(){
-      let current = document.getElementsByClassName(" btn active");
-      current[0].className = current[0].className.replace(" active", "");
-      this.className += " active";
-    });
-}
+
 
 
