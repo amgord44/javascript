@@ -79,28 +79,53 @@
 
 }
 ]
-//const year = movies.filter(e => e.date.includes('1950'));
-//console.log(year);
+const allMovies = movies.sort((a,b) => a.date - b.date);
 
-/*movies.forEach((e) => {
-    console.log(`${e.title} ${e.date}`);*/
+
+
+
+/*function movieList() {
+const movies6 = movies.filter(m => m.date < 1970 && m.date > 1960);
+const oldMovies = movies.filter(m => m.date < 1960);
+const movies7 = movies.filter(m => m.date < 1980 && m.date > 1970);
+const movies8 = movies.filter(m => m.date < 1990 && m.date > 1980);
+const movies9 = movies.filter(m => m.date > 1990);
+
+}*/
+
+
+
+//const btn = document.querySelector('button');
+//btn.addEventListener('click', getMovies);
+function getMovies() {
+    for (let m of Object.entries(movies)){
+   console.log(JSON.stringify(m, movies[m]));
+    }
+}
+
+//for(let i = 0; i < movies.length; i++) {
+   //console.log(`${movies.title} ${movies.date}`);
+//}*/
+
+
 
 /*let year = movies.filter(year => movies.date === 1950);
-console.log(year)*/
+console.log(year)
 
 
 //console.log(movies);
 /*for(let i = 0; i < movies.length; i++) {
 if(movies[i].date === 1950){*/
    // console.log(moveYear);
-   const allMovies = document.querySelector('gMovies');
+/*const allMovies = document.querySelector('gMovies');
    const btn = document.querySelector('button');
    
    btn.addEventListener('click', getMovies);
    function getMovies() {
                 alert(JSON.stringify(movies))
     
-    }
-
+    };*/
+//movies.forEach((e) => {
+    //function getMovies(){ 
 
 
