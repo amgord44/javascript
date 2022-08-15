@@ -1,0 +1,45 @@
+h3 {
+    margin: 30px;
+    text-align: center;
+    font-size: 50px;
+    padding: 20px;
+}
+.giveaway {
+    text-align:  center;
+    font-size: 30px;
+    padding: 25px;
+    font-style:italic;
+    background-color: aliceblue;
+}
+p {
+    margin: 50px;
+    font-size: 25px;
+    text-align: center;
+    background-color: white;
+}
+.deadline {
+text-align: center;
+margin: auto;
+width: 5%;
+padding: 10px;
+font-weight: bold;
+font-size: large;
+font-style: italic;
+}
+.days {
+    border-style: solid;
+
+}
+.hours {
+    border-style: solid;
+}
+.mins {
+    border-style: solid;
+}
+.secs {
+    border-style: solid;
+}
+
+  span {
+      box-sizing: border-box;
+  }

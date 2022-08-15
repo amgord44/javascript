@@ -1,12 +1,20 @@
-function insert_Row() {
-    let x = document.getElementById('sampleTable').insertRow(0);
-    let y = x.insertCell(0);
-    let z = x.insertCell(1);
-    y.innerHTML = 'New Cell1';
-    z.innerHTML = 'New Cell2';
+/*const video = {
+  title: 'a',
+  tags: ['a','b', 'c'],
+    showTags() {
+      const self = this;
+      this.tags.forEach(function(tag) {
+      console.log(self.title, tag);
+      }, this);
+  }
+};
+
+video.showTags();*/
+
+function playVideo(){
+  console.log(this);
+
 }
 
-
-
-
-
+playVideo.call({name: 'Michelle'});
+playVideo.apply({name: 'Michelle'});
