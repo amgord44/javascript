@@ -1,0 +1,76 @@
+.body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .logo {
+    font-size: 20px;
+    font-weight: bold;
+         background-color: gray;
+      float: left;
+      color: black;
+      text-align: center;
+      padding: 12px;
+      text-decoration: none;
+      font-size: 18px;
+      line-height: 25px;
+      border-radius: 4px;
+      margin-top: 50px;
+      margin-left: 100px;
+      }
+      .header-right {
+        float: right;
+        word-spacing: 100px;
+        font-weight: bold;
+        font-size: 20px;
+        margin-top: 50px;
+      }
+       hr.line1 {
+        margin-left: -6%;
+        margin-top: 0%;
+        color: gray;
+       }
+     
+      img {
+        margin-top: 125px;
+        margin-right: 10px;
+        height: 300px;
+        width: 30%;
+        background-color: lightgrey;
+        flex: 50%;
+      padding: 25px;
+      float:left
+      display: inline-block
+      }
+
+    .column {
+        padding-top: 5%;
+
+   
+        margin-left: 600px;
+        
+        margin-top: -400px;
+   
+        
+
+    }
+    .row {
+        display: flex;
+      }
+
+    .h1 {
+        font-size: 50px;
+        
+      }
+  
+      .h2 {
+        font-size: 25px;
+      }
+  
+      .p {
+        font-size: 15px;
+        text-align: right;
+        margin-right: 50px;
+        padding: 10px;
+      }
+    
+
